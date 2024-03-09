@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+    background-color:#5955b3 ;
+    border-radius: 50%;
+    transition: all linear 0.2s;
+    position: absolute;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    border-bottom: 2px solid ;
+}
+
+.nav-part1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-part1 .list ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 15px;
+}
+
+.buttons button{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;  
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 2px 4px;
+    border: 2px solid transparent ;
+    border-radius: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: 42px;
+}
+
+.main{
+    width: 100%;
+   height: 500px;
+
+    display: flex;
+}
+
+.right{
+    width: 45%;
+height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding:80px ;
+}
+
+.left{
+    width: 55%;
+    height: 100%;
+    padding: 20px;
+}
+
+.right h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #3c2f60;
+}
+.right h3{
+    color:#3c2f60 ;
+    margin-top: 30px;
+}
+span{
+    color: #5955b3;
+}
+
+#btn3{
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 18px;
+    margin-top: 50px;
+    background-color: #5955b3;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.left img{
+    height: 90%;
+    width: 90%;
+
+}
+
+
+.down{
+    font-size: 20px;
+position: absolute;
+bottom:10%;
+left: 50%;
+transform: translate(-50%,0);
+text-transform: capitalize;
+mix-blend-mode: difference;
+
+}
